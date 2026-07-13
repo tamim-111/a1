@@ -34,9 +34,9 @@ button {
 /* navbar */
 #navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
 }
 
 nav ul {
@@ -140,23 +140,19 @@ nav ul li a {
 }
 
 /* Pricing Section */
-#pricing {
-    background: #F8FAFC;
-}
-
 .pricing-header {
     text-align: center;
     margin-bottom: 4rem;
 }
 
 .pricing-header h1 {
-    font-size: 3.5rem;
-    color: #0F172A;
+    font-size: 3rem;
+    color: #0D1B2A;
     margin-bottom: .8rem;
 }
 
 .pricing-header p {
-    color: #64748B;
+    color: #575757;
 }
 
 .pricing-container {
@@ -167,24 +163,21 @@ nav ul li a {
 
 .pricing-card {
     background: white;
-    border: 1px solid #E5E7EB;
     border-radius: 12px;
     padding: 1.6rem;
-
     display: flex;
     flex-direction: column;
 }
 
 .pricing-card.featured {
-    background: #0F172A;
+    background: #0D1B2A;
     color: white;
 }
 
 .plan {
     font-size: .75rem;
-    font-weight: 700;
-    color: #64748B;
-    letter-spacing: 1px;
+    font-weight: semibold;
+    color: #888888;
 }
 
 .featured .plan {
@@ -194,45 +187,36 @@ nav ul li a {
 .pricing-card h2 {
     font-size: 3rem;
     margin-top: .5rem;
-    color: inherit;
 }
 
 .price-subtitle {
-    color: #94A3B8;
+    color: #888888;
     margin-bottom: 1.5rem;
     font-size: .9rem;
 }
 
 .pricing-card hr {
-    border: none;
-    border-top: 1px solid #E5E7EB;
+    border: 1px solid #FFFFFF10;
     margin-bottom: 1.5rem;
-}
-
-.featured hr {
-    border-color: rgba(255, 255, 255, .15);
 }
 
 .pricing-card ul {
     list-style: none;
     margin-bottom: 2rem;
-
     display: flex;
     flex-direction: column;
     gap: .9rem;
-
-    flex: 1;
 }
 
 .pricing-card ul li {
     position: relative;
     padding-left: 1rem;
-    color: #475569;
+    color: #333333;
     font-size: .95rem;
 }
 
 .featured ul li {
-    color: #CBD5E1;
+    color: #FFFFFF80;
 }
 
 .pricing-card ul li::before {
@@ -263,8 +247,6 @@ nav ul li a {
     grid-template-columns: 1fr 1.2fr;
     gap: 4rem;
     align-items: center;
-
-    background: #F8FAFC;
 }
 
 .contact-info h2 {
@@ -369,7 +351,6 @@ nav ul li a {
 }
 
 /* Footer */
-
 #footer {
     max-width: 100%;
     background: #0D1B2A;
