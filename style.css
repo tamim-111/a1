@@ -16,6 +16,17 @@ a {
     color: inherit;
 }
 
+button {
+    padding: 0.8rem 2.6rem;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
 /* navbar */
 #navbar {
     display: flex;
@@ -36,12 +47,39 @@ nav ul li a {
     color: #575757;
 }
 
-nav button {
-    padding: 0.8rem 2.6rem;
-    border: none;
-    border-radius: 0.6rem;
-    background-color: #1D4ED8;
+/* hero section */
+
+#hero {
+    background-image: url('./assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 80px);
     color: #FFFFFF;
-    cursor: pointer;
+    text-align: center;
+}
+
+#hero>div {
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+#hero>div h1 {
+    font-size: 5rem;
     font-weight: bold;
+    padding-top: 8.5rem;
+}
+
+#hero>div p {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0;
+    color: #E5E7EB80;
+}
+
+#hero button {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 5rem;
+    transform: translateX(-50%);
 }
