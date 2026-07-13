@@ -174,13 +174,13 @@ nav ul li a {
     color: white;
 }
 
-.plan {
+.pricing-card-name {
     font-size: .75rem;
     font-weight: semibold;
     color: #888888;
 }
 
-.featured .plan {
+.featured .pricing-card-name {
     color: #93C5FD;
 }
 
@@ -201,11 +201,11 @@ nav ul li a {
 }
 
 .pricing-card ul {
-    list-style: none;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     gap: .9rem;
+    padding-left: 1rem;
 }
 
 .pricing-card ul li {
@@ -219,11 +219,8 @@ nav ul li a {
     color: #FFFFFF80;
 }
 
-.pricing-card ul li::before {
-    content: "•";
+ul li::marker {
     color: #2563EB;
-    position: absolute;
-    left: 0;
 }
 
 .pricing-card button {
