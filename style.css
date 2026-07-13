@@ -367,3 +367,22 @@ nav ul li a {
 .contact-form button {
     align-self: flex-start;
 }
+
+/* Footer */
+
+#footer {
+    max-width: 100%;
+    background: #0D1B2A;
+    color: #ffffff40;
+
+    padding: 3rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+}
